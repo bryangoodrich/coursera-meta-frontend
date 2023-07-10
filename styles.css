@@ -1,0 +1,119 @@
+/* 
+    Green: #26877F 
+    Red: #B53434
+    White: #EDE7F1
+*/
+body {
+    background-color: #EDEFEE;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/* Promotion */
+h1 {
+    font-size: 3rem;
+    color: #26877F;
+    text-align: center;
+}
+
+h1 + p {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Articles */
+a > h2 {
+    position: relative;
+    margin-top: -3rem;
+    font-size: 2rem;
+    color: #EDE7F1;
+    background-color: rgb(38, 135, 127, 0.65);
+    z-index: 1;
+    transition: margin-top 0.2s;
+}
+
+a:hover h2 {
+    margin-top: -3.5rem;
+}
+
+article a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p { 
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Header */
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Navitation */
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #444;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+nav li a {
+    padding: 20px 20px;
+    color: #EDE7F1;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #26877F;
+}
+
+/* Main Section */
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+    background-color: #fbfbfbf0;
+    margin: 5px;
+}
+
+/* Footer Section */
+footer {
+    display: flex;
+    background-color: #fff;
+}
+
+footer div {
+    flex: 1;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p {
+    text-align: center;
+}
