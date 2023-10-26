@@ -1,10 +1,8 @@
-function Footer() {
+const Footer = () => {
     return (
-        <>
-            <footer>
-                Copyright 2023 LittleLemon
-            </footer>
-        </>
+        <footer>
+            Copyright 2023 LittleLemon
+        </footer>
     );
 }
 

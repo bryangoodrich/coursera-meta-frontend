@@ -1,10 +1,8 @@
-function Header() {
+const Header = () => {
     return (
-        <>
-            <header>
-                Image here.
-            </header>
-        </>
+        <header>
+            <img src="littlelemon-logo.png" alt="Little Lemon Logo" />
+        </header>
     );
 }
 

@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Adjust column layout based on your design */
+  align-items: center;
+  height: 60px; /* Adjust height as needed */
+  background-color: #f0f0f0; /* Adjust background color as needed */
+}
+
+.nav {
+  display: flex;
+  list-style: none; /* Remove default list styles */
+  padding: 0;
+}
+
+.nav li {
+  margin-right: 15px; /* Adjust spacing between items */
+}
+
+.nav li:last-child {
+  margin-right: 0; /* Remove margin for the last item */
+}
+
+.nav a {
+  text-decoration: none;
+  color: black; /* Adjust the color as needed */
+}
+
+/* Mobile-focused layout adjustments */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column; /* Display items in a column for mobile */
+  }
+
+  .nav li {
+    margin-right: 0; /* Remove margin for mobile */
+    margin-bottom: 10px; /* Add spacing between items for mobile */
+  }
+}
